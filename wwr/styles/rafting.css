@@ -51,6 +51,7 @@ article {
 
 .hero {
     position: relative;
+    padding-bottom: 120px;
 }
 
 .hero img {
@@ -73,7 +74,7 @@ h1 {
 article {
     position: absolute;
     color: var(--accent1-color);
-    padding: 20px;
+    padding: 15px;
     background-color: var(--primary-color);
     color: #fff;
 }
