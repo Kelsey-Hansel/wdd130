@@ -158,7 +158,7 @@ figcaption {
     
 }
 
-.contact h2 {
+.contact h1 {
     grid-column: 1/3;
     grid-row: 1/3;
 }
