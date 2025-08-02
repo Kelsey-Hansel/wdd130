@@ -150,3 +150,111 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+
+.contact {
+    display: grid;
+    grid-template-rows: 15% 20% 20%;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.contact h1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.contact iframe {
+    align-self: center;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+}
+
+.employees {
+    display: grid;
+    justify-content: space-around;
+}
+
+.employees figure {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    padding: 0;
+}
+
+.employees h1 {
+    grid-column: 1/4;
+    padding-bottom: 40px;
+}
+
+form {
+    width: 840px;
+    margin: 0 auto;
+    padding: 25px;
+    border: thin gray solid;
+    border-radius: 5px;
+    background-color: lightgray;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 15px;
+    padding: 15px;
+    border: thin gray solid;
+}
+
+.usercontact {
+    grid-template-columns: 1fr 5fr;
+}
+
+.userselect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.usercomment {
+    grid-template-columns: 2fr 5fr;
+}
+
+legend {
+    color: rgb(32, 32, 180);
+    margin: 8px;
+    font-size: 28px;
+}
+
+label {
+    padding-right: 5px;
+    color: var(--accent1-color)
+}
+
+input, textarea {
+    padding: 5px;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+
+button {
+    width: 50px;
+    margin: 5px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 3px;
+    font-size: 10px;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+.form-items h1 {
+    padding-bottom: 40px;
+}
